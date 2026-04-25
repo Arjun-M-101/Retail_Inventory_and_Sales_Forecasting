@@ -1,6 +1,6 @@
 # Retail Inventory and Sales Forecasting
 
-<img width="1319" height="742" alt="dashboard_overview" src="https://github.com/user-attachments/assets/08a3b46c-9ba1-460e-9dca-d1c5b3d67ace" />
+<img width="1319" height="742" alt="dashboard_overview" src="https://github.com/user-attachments/assets/350c655a-4ef1-4a34-bd0b-e19dbbea5089" />
 
 ## Business Problem
 
@@ -259,13 +259,13 @@ Retail_Sales_Forecasting/
 ## Screenshots
 
 <p align="center">
-  <img width="400" alt="dashboard_overview" src="https://github.com/user-attachments/assets/39980fa4-948c-4555-bc37-b6b210e0146b" />
-  <img width="400" alt="yoy_2016_green" src="https://github.com/user-attachments/assets/df303071-79b5-49df-95db-47da2949e40f" />
+    <img width="400" alt="dashboard_overview" src="https://github.com/user-attachments/assets/5635cd8a-9be6-4e2d-b76a-083cbed99b2d" />
+    <img width="400" alt="yoy_2016_green" src="https://github.com/user-attachments/assets/41d32be3-a080-4279-ad81-04302cc331b9" />
 </p>
 
 <p align="center">
-  <img width="400" alt="yoy_2015_red" src="https://github.com/user-attachments/assets/d83cb67b-7ba9-4096-8718-56bec80e69ec" />
-  <img width="400" alt="tooltip_category" src="https://github.com/user-attachments/assets/3457813c-418d-4c2f-9892-8ed2f70b14be" />
+    <img width="400" alt="yoy_2015_red" src="https://github.com/user-attachments/assets/ee0f3bd6-5e2e-4caa-a9ac-3f487ce10450" />
+    <img width="400" alt="tooltip_category" src="https://github.com/user-attachments/assets/776bc771-b6e2-49e3-82d4-fab78445339a" />
 </p>
 
 <!--

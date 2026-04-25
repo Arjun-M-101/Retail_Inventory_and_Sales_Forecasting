@@ -211,13 +211,7 @@ a misleading 0%.
 | Daily data producing 1,400+ noisy data points on chart | Applied Power Query Group By to aggregate to 573 monthly rows |
 | X-axis showing Month text column (out of chronological order) | Used DateTable[Date] on X-axis instead of DateTable[Month] text column |
 | YoY showing -100% for future/empty date ranges | Added ISBLANK guards in YoY VAR measure |
-| Forecast not appearing initially (all categories blocked) | Root cause: having two measures 
-on the Y-axis (Total Revenue + 30-Day Moving Average) completely disables Power BI's 
-Analytics pane Forecast feature. Fixed by removing the Moving Average from the Y-axis — 
-forecast now renders for all 3 categories. Confidence interval width varies by category: 
-Office Supplies shows a narrower band (more consistent monthly demand pattern); Furniture 
-and Technology show wider bands, reflecting their volatile/lumpy demand — the algorithm 
-correctly signals higher uncertainty for irregular sales patterns. |
+| Forecast initially not appearing (any category) | Root cause: two measures on Y-axis (Total Revenue + Moving Average) blocks the Analytics pane Forecast entirely. Removed Moving Average from Y-axis — forecast enabled for all 3 categories. Office Supplies shows the narrowest confidence band (most consistent demand); Technology and Furniture show wider bands due to lumpy/sporadic order patterns, reflecting the algorithm's higher uncertainty for those categories. |
 
 <!--
 ## Why the Forecast Only Appears for Office Supplies

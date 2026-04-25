@@ -211,7 +211,7 @@ a misleading 0%.
 | Daily data producing 1,400+ noisy data points on chart | Applied Power Query Group By to aggregate to 573 monthly rows |
 | X-axis showing Month text column (out of chronological order) | Used DateTable[Date] on X-axis instead of DateTable[Month] text column |
 | YoY showing -100% for future/empty date ranges | Added ISBLANK guards in YoY VAR measure |
-| Forecast appearing for Office Supplies only | Expected behaviour — Technology and Furniture have lumpy/sparse demand; algorithm correctly declines to forecast when pattern confidence is insufficient |
+| Forecast initially not appearing (any category) | Root cause: two measures on Y-axis (Total Revenue + Moving Average) blocks the Analytics pane Forecast entirely. Removed Moving Average from Y-axis — forecast enabled for all 3 categories. Office Supplies shows the narrowest confidence band (most consistent demand); Technology and Furniture show wider bands due to lumpy/sporadic order patterns, reflecting the algorithm's higher uncertainty for those categories. |
 
 <!--
 ## Why the Forecast Only Appears for Office Supplies

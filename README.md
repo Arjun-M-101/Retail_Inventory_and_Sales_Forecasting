@@ -311,7 +311,7 @@ Retail_Sales_Forecasting/
 
 <p align="center">
     <img width="400" alt="yoy_2015_red" src="https://github.com/user-attachments/assets/ee0f3bd6-5e2e-4caa-a9ac-3f487ce10450" />
-    <img width="400" alt="tooltip_category" src="https://github.com/user-attachments/assets/716bc771-b6e2-49e3-82d4-fab78445339a" />
+    <img width="400" alt="tooltip_category" src="https://github.com/user-attachments/assets/776bc771-b6e2-49e3-82d4-fab78445339a" />
 </p>
 
 ---
